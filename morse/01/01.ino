@@ -48,7 +48,6 @@ void loop()
   {
   buffer[index++]=Serial.read();
   }
-  splitString(buffer);
   for(i=1;i<=index;i++)
   {k=buffer[i];
    switch(k)

@@ -1,6 +1,10 @@
 #汪童乐的开源硬件作业
 
+> 汪童乐
+
 ##第一天
+
+
 
 ###学习内容
 
@@ -12,31 +16,33 @@
 
 ​	arduino
 
-![](D:\桌面\开源硬件\arduino.png)
+![](D:\桌面\开源硬件\hardware\图片\arduino.png)
 
 ​	fritzing
 
-![](D:\桌面\开源硬件\fritzing.png)
+![](D:\桌面\开源硬件\hardware\图片\fritzing.png)
 
 ​	processing
 
-![](D:\桌面\开源硬件\processing.png)
+![](D:\桌面\开源硬件\hardware\图片\processing.png)
 
 -几个常用网站
 
-www.arduino.cc
+[arduino](www.arduino.cc)
 
-www.ubuntu.com
+[ubuntu](www.ubuntu.com)
 
-www.fritzing.org
+[fritzing](www.fritzing.org)
 
-www.processing.org
+[processing](processing.org)
 
-github.com
+[Github](github.com)
 
-thinkercad.com
+[thinkercad](thinkercad.com)
 
 ##第二天
+
+
 
 #####学习内容
 
@@ -205,6 +211,8 @@ void loop()
 
 ##第三天
 
+
+
 ###学习内容
 
 -小车编程
@@ -359,6 +367,8 @@ void loop()
 ![](D:\桌面\开源硬件\hardware\数字显示\ScreenClip.png)
 
 ##第四天
+
+
 
 ####学习内容
 
