@@ -48,14 +48,11 @@
 
 -arduino编程
 
+库函数
+
 Morse.h
 
 ```c
-
-```
-
-
-
 #ifndef _MORSE_H
 #define _MORSE_H
 class Morse
@@ -71,11 +68,9 @@ class Morse
 ​    int _dottime;
 };
 #endif /*_MORSE_H*/
-
-```c
-库函数
 ```
 
+```
 #include "Arduino.h"
 #include "Morse.h"
 
@@ -113,11 +108,21 @@ void Morse::w_space()
 ​	digitalWrite(_pin,LOW);
 ​	delay(_dottime*7);
 }
-
-```c
-主函数
 ```
 
+keywords.text
+
+```
+Morse	KEYWORD1
+dash	KEYWORD2
+dot	KEYWORD2
+```
+
+
+
+主函数
+
+```c
 int pin = 13,_dottime=250;
 char buffer[1000];
 void setup() 
@@ -149,10 +154,6 @@ void dash()//Dah闪烁
 {
   digitalWrite(pin,LOW);
   delay(_dottime*7);
-}
-void splitString()
-{
-
 }
 
 void loop() 
@@ -204,9 +205,6 @@ void loop()
  }
  }
 }
-
-```
-
 ```
 
 ##第三天
@@ -218,10 +216,6 @@ void loop()
 -小车编程
 
 ```c
-
-```
-
-//f:前进，b：后退，l：左转，r：右转，s：停止
 void setup()
 {
  pinMode(5,OUTPUT);
@@ -283,9 +277,7 @@ void stop()
 //b:6高5低，10高9低
 //l：6高5低，10低9高
 //s:全低
-
-```c
-
+//f:前进，b：后退，l：左转，r：右转，s：停止
 ```
 
 -小车电路图
@@ -299,9 +291,6 @@ void stop()
 单片机型号CD4511 
 
 ```c
-
-```
-
 void setup()
 {
    pinMode(0, OUTPUT);
@@ -357,9 +346,6 @@ void loop()
   delay(10);
   digitalWrite(0,HIGH);
 }
-
-```c
-
 ```
 
 -数码管电路图
@@ -367,8 +353,6 @@ void loop()
 ![](D:\桌面\开源硬件\hardware\数字显示\ScreenClip.png)
 
 ##第四天
-
-
 
 ####学习内容
 
@@ -379,9 +363,6 @@ void loop()
 -学习总结
 
 ```C
-
-```
-
 int _pin=13;
 int _dottime=250;
 
@@ -462,9 +443,8 @@ void loop()
 
   if (temp)
   {
-​    
 
-```c
+​```c
 for (i = 0; i < n; i++)
 {
   for (t = 0; t < 4; t++)
@@ -487,15 +467,15 @@ for (i = 0; morse_s[i]!='\0' ; i++)
   if (morse_s[i] != ' ' && str[i] != '*')c_space();
 }
 delay(2);
-```
+​```
+
   }
 }
-
-```c
-
 ```
 
 -电路图
 
 ![](D:\桌面\开源硬件\hardware\morse(不含库)\ScreenClip.png)
+
+
 
