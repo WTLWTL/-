@@ -70,7 +70,7 @@ class Morse
 #endif /*_MORSE_H*/
 ```
 
-```
+```c
 #include "Arduino.h"
 #include "Morse.h"
 
